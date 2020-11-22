@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d1494fc4bffa1040a95cfef9353ba89, type: 3}
+  m_Name: 6_Eye
+  m_EditorClassIdentifier: 
+  updatedGameEvent: {fileID: 11400000, guid: 1de488b01cdaf9443a8e9ba209c7e04f, type: 2}
+  foundImage: {fileID: 21300000, guid: 8d50c5f4915e44642997c03a4d48fb10, type: 3}
+  foundMessage: 'FINE ! I DIDN''T WANT TO HAVE TO TAKE CARE OF ITS LITTLE TOE ALL
+    THE TIME
+
+    NOW IT WILL BE ABLE TO <color=red>SEE</color> COMMING ALL THOSE
+    F**KING FURNITURE CORNERS'
+  Nucl_0:
+    sprite: {fileID: 21300000, guid: 1e5c65c4c355c9448a86f7638ba4bb96, type: 3}
+    value: 3
+  Nucl_1:
+    sprite: {fileID: 21300000, guid: c902065462187de418e4b3ef2e8b82ef, type: 3}
+    value: 4
+  Nucl_2:
+    sprite: {fileID: 21300000, guid: c902065462187de418e4b3ef2e8b82ef, type: 3}
+    value: 4
+  Nucl_3:
+    sprite: {fileID: 21300000, guid: 5fbdee17d7b173e4bb02946ff776c92d, type: 3}
+    value: 2
+  Nucl_4:
+    sprite: {fileID: 21300000, guid: 1e5c65c4c355c9448a86f7638ba4bb96, type: 3}
+    value: 3
