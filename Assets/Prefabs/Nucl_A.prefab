@@ -159,3 +159,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   info: 0
+  spriterSO: {fileID: 11400000, guid: 4f02f4ac49f0da544884e35a190141bc, type: 2}
