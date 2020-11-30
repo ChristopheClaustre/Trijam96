@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 668f5f6e278d3734198c1196473401c1, type: 3}
+  m_Name: NuclSpriter
+  m_EditorClassIdentifier: 
+  UISprites:
+  - {fileID: 21300000, guid: 83ce4149bfad35f4c9039b5cb62aaf1b, type: 3}
+  - {fileID: 21300000, guid: cec3ebdd363049c4b9bcc272ec23f6b7, type: 3}
+  - {fileID: 21300000, guid: 5fbdee17d7b173e4bb02946ff776c92d, type: 3}
+  - {fileID: 21300000, guid: 1e5c65c4c355c9448a86f7638ba4bb96, type: 3}
+  - {fileID: 0}
+  CombSprites:
+  - {fileID: 21300000, guid: ca3384a3ab5b7bc4fbdacfa9f9d4775b, type: 3}
+  - {fileID: 21300000, guid: 29dd17b03b0d437459d4e8cb561810cc, type: 3}
+  - {fileID: 21300000, guid: 812f678c3ee94eb4db344f89a1ae7938, type: 3}
+  - {fileID: 21300000, guid: 9fa05ead1bde9924da02d1850d7e0c42, type: 3}
+  - {fileID: 0}
+  GeneratedSprites:
+  - {fileID: 21300000, guid: da299c0352684c34e9c4ae5a7a55eb61, type: 3}
+  - {fileID: 21300000, guid: 92f081db21b4e05419d394651a0e15a1, type: 3}
+  - {fileID: 21300000, guid: 120eef2fcb07d51479283780e705b4bf, type: 3}
+  - {fileID: 21300000, guid: 2749fd70597c6ee4ba01b39d50228635, type: 3}
+  - {fileID: 0}
