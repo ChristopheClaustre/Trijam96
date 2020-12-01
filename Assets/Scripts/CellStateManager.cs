@@ -12,17 +12,18 @@ public class CellStateManager : MonoBehaviour
     public Image Nucl_3;
     public Image Nucl_4;
 
+    public NuclSpriterSO nuclSpriter;
     public CellStateSO cellState;
 
     void Start()
     {
         foundImage.sprite = cellState.foundImage;
 
-        Nucl_0.sprite = cellState.Nucl_0.sprite;
-        Nucl_1.sprite = cellState.Nucl_1.sprite;
-        Nucl_2.sprite = cellState.Nucl_2.sprite;
-        Nucl_3.sprite = cellState.Nucl_3.sprite;
-        Nucl_4.sprite = cellState.Nucl_4.sprite;
+        Nucl_0.sprite = nuclSpriter.GetUISprite(cellState[0]);
+        Nucl_1.sprite = nuclSpriter.GetUISprite(cellState[1]);
+        Nucl_2.sprite = nuclSpriter.GetUISprite(cellState[2]);
+        Nucl_3.sprite = nuclSpriter.GetUISprite(cellState[3]);
+        Nucl_4.sprite = nuclSpriter.GetUISprite(cellState[4]);
         
         UpdateUI();
     }
@@ -31,10 +32,10 @@ public class CellStateManager : MonoBehaviour
     {
         foundImage.gameObject.SetActive(cellState.Found);
 
-        Nucl_0.gameObject.SetActive(cellState.Found || cellState.Nucl_0.Found);
-        Nucl_1.gameObject.SetActive(cellState.Found || cellState.Nucl_1.Found);
-        Nucl_2.gameObject.SetActive(cellState.Found || cellState.Nucl_2.Found);
-        Nucl_3.gameObject.SetActive(cellState.Found || cellState.Nucl_3.Found);
-        Nucl_4.gameObject.SetActive(cellState.Found || cellState.Nucl_4.Found);
+        Nucl_0.gameObject.SetActive(cellState.Found || cellState.isNuclFound(0));
+        Nucl_1.gameObject.SetActive(cellState.Found || cellState.isNuclFound(1));
+        Nucl_2.gameObject.SetActive(cellState.Found || cellState.isNuclFound(2));
+        Nucl_3.gameObject.SetActive(cellState.Found || cellState.isNuclFound(3));
+        Nucl_4.gameObject.SetActive(cellState.Found || cellState.isNuclFound(4));
     }
 }

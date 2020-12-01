@@ -30,6 +30,19 @@ public class NuclManager
         return ToString(nucl_0) + ToString(nucl_1) + ToString(nucl_2) + ToString(nucl_3) + ToString(nucl_4);
     }
 
+    public static NuclEnum FromString(char chr)
+    {
+        switch (chr)
+        {
+            case 'A': return NuclEnum.eNucl_A;
+            case 'T': return NuclEnum.eNucl_T;
+            case 'C': return NuclEnum.eNucl_C;
+            case 'G': return NuclEnum.eNucl_G;
+            case 'X':
+            default: return NuclEnum.eNucl_X;
+        }
+    }
+
     public static bool Compare(string origin, string model)
     {
         Regex rgx = new Regex(model.Replace("X", "[ATCG]"));
