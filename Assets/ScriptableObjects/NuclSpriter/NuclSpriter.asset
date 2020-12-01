@@ -17,7 +17,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cec3ebdd363049c4b9bcc272ec23f6b7, type: 3}
   - {fileID: 21300000, guid: 5fbdee17d7b173e4bb02946ff776c92d, type: 3}
   - {fileID: 21300000, guid: 1e5c65c4c355c9448a86f7638ba4bb96, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: c902065462187de418e4b3ef2e8b82ef, type: 3}
   CombSprites:
   - {fileID: 21300000, guid: ca3384a3ab5b7bc4fbdacfa9f9d4775b, type: 3}
   - {fileID: 21300000, guid: 29dd17b03b0d437459d4e8cb561810cc, type: 3}
