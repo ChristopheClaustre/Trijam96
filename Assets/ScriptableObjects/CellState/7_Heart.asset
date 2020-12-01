@@ -16,18 +16,4 @@ MonoBehaviour:
   foundImage: {fileID: 21300000, guid: e44ef410445c7e540a5f86afe8897dbc, type: 3}
   foundMessage: A <color=red>HEART</color>, TO MAKE IT ABLE TO LOVE !! NO, JUST KIDDING
     ! I JUST DON'T FEEL LIKE CIRCULATING ALL THAT BLOOD MYSLEF !
-  Nucl_0:
-    sprite: {fileID: 21300000, guid: 1e5c65c4c355c9448a86f7638ba4bb96, type: 3}
-    value: 3
-  Nucl_1:
-    sprite: {fileID: 21300000, guid: 83ce4149bfad35f4c9039b5cb62aaf1b, type: 3}
-    value: 0
-  Nucl_2:
-    sprite: {fileID: 21300000, guid: cec3ebdd363049c4b9bcc272ec23f6b7, type: 3}
-    value: 1
-  Nucl_3:
-    sprite: {fileID: 21300000, guid: c902065462187de418e4b3ef2e8b82ef, type: 3}
-    value: 4
-  Nucl_4:
-    sprite: {fileID: 21300000, guid: c902065462187de418e4b3ef2e8b82ef, type: 3}
-    value: 4
+  model: GATXX

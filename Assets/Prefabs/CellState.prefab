@@ -475,6 +475,7 @@ MonoBehaviour:
   Nucl_2: {fileID: 486162424251041300}
   Nucl_3: {fileID: 486162425584559709}
   Nucl_4: {fileID: 486162424074643904}
+  nuclSpriter: {fileID: 11400000, guid: 4f02f4ac49f0da544884e35a190141bc, type: 2}
   cellState: {fileID: 0}
 --- !u!1 &486162425584559683
 GameObject:

@@ -18,18 +18,4 @@ MonoBehaviour:
 
     EVERYHTING IS FUNNIER
     WITH BLOODS'
-  Nucl_0:
-    sprite: {fileID: 21300000, guid: c902065462187de418e4b3ef2e8b82ef, type: 3}
-    value: 4
-  Nucl_1:
-    sprite: {fileID: 21300000, guid: c902065462187de418e4b3ef2e8b82ef, type: 3}
-    value: 4
-  Nucl_2:
-    sprite: {fileID: 21300000, guid: 83ce4149bfad35f4c9039b5cb62aaf1b, type: 3}
-    value: 0
-  Nucl_3:
-    sprite: {fileID: 21300000, guid: cec3ebdd363049c4b9bcc272ec23f6b7, type: 3}
-    value: 1
-  Nucl_4:
-    sprite: {fileID: 21300000, guid: c902065462187de418e4b3ef2e8b82ef, type: 3}
-    value: 4
+  model: XXATX

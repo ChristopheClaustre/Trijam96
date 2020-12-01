@@ -14,22 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   updatedGameEvent: {fileID: 11400000, guid: 1de488b01cdaf9443a8e9ba209c7e04f, type: 2}
   foundImage: {fileID: 21300000, guid: 5005af6c68a4fd34b8388d1a71f5254d, type: 3}
-  foundMessage: '<color=red>MUSCLE</color>... NOT TOO MUCH...
-
-    I DON''T WANT
-    IT TO BE STRONGER THAN ME ! I AM THE MASTER'
-  Nucl_0:
-    sprite: {fileID: 21300000, guid: 1e5c65c4c355c9448a86f7638ba4bb96, type: 3}
-    value: 3
-  Nucl_1:
-    sprite: {fileID: 21300000, guid: c902065462187de418e4b3ef2e8b82ef, type: 3}
-    value: 4
-  Nucl_2:
-    sprite: {fileID: 21300000, guid: c902065462187de418e4b3ef2e8b82ef, type: 3}
-    value: 4
-  Nucl_3:
-    sprite: {fileID: 21300000, guid: 83ce4149bfad35f4c9039b5cb62aaf1b, type: 3}
-    value: 0
-  Nucl_4:
-    sprite: {fileID: 21300000, guid: c902065462187de418e4b3ef2e8b82ef, type: 3}
-    value: 4
+  foundMessage: "<color=red>MUSCLE</color>... NOT TOO MUCH...\nI DON'T WANT IT TO
+    BE STRONGER THAN ME ! I AM THE MASTER\t"
+  model: GXXAX
