@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ADNGenerator : MonoBehaviour
 {
-    public List<GameObject> prefabs;
+    public ADNInformation prefab;
     public float speed = 0.5f;
     public float size = 0.885f;
 
@@ -39,10 +39,11 @@ public class ADNGenerator : MonoBehaviour
     public void GenerateOne()
     {
         var rnd = new System.Random(DateTime.Now.Millisecond);
-        int idx = rnd.Next(0, prefabs.Count);
+        int idx = rnd.Next(0, Enum.GetNames(typeof(NuclManager.NuclEnum)).Length - 1);
 
-        var go = Instantiate(prefabs[idx], transform);
-        go.transform.localPosition = Vector3.zero;
-        go.GetComponent<ADNMovement>().speed = speed;
+        var info = Instantiate(prefab, transform) as ADNInformation;
+        info.transform.localPosition = Vector3.zero;
+        info.info = (NuclManager.NuclEnum) idx;
+        info.GetComponent<ADNMovement>().speed = speed;
     }
 }
