@@ -34,7 +34,7 @@ public class PeigneTry : MonoBehaviour
         int i = 0;
         while (i < getNucls.Count && getNucls[i].ADNInfo != null)
         {
-            candidate += NuclManager.ToString(getNucls[i].ADNInfo.info);
+            candidate += NuclManager.ToChar(getNucls[i].ADNInfo.info);
             i++;
         }
 

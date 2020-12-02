@@ -45,7 +45,7 @@ public class CellStateSO : ScriptableObject
         updatedGameEvent.Raise();
     }
 
-    public NuclManager.NuclEnum this[int idx] => NuclManager.FromString(model[idx]);
+    public NuclManager.NuclEnum this[int idx] => NuclManager.FromChar(model[idx]);
     
     public string Model => model;
 }
