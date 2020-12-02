@@ -38,9 +38,8 @@ public class ADNGenerator : MonoBehaviour
 
     public void GenerateOne()
     {
-        var rnd = new System.Random(DateTime.Now.Millisecond);
-        int idx = rnd.Next(0, Enum.GetNames(typeof(NuclManager.NuclEnum)).Length - 1);
-
+        int idx = UnityEngine.Random.Range(0, Enum.GetNames(typeof(NuclManager.NuclEnum)).Length - 1); // -1 to not have eNuclX
+        
         var info = Instantiate(prefab, transform) as ADNInformation;
         info.transform.localPosition = Vector3.zero;
         info.info = (NuclManager.NuclEnum) idx;
