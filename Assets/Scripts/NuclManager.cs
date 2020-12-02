@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using UnityEngine;
 
 public class NuclManager
 {
@@ -49,5 +51,25 @@ public class NuclManager
     {
         Regex rgx = new Regex(model.Replace("X", "[ATCG]"));
         return rgx.IsMatch(origin);
+    }
+
+    public static List<int> CorrectIndices(string origin, string model)
+    {
+        Debug.Assert(origin.Length == 5);
+        Debug.Assert(model.Length == 5);
+        List<int> indexes = new List<int>();
+
+        for (int i = 0; i < 5; i++)
+        {
+            char m = model[i];
+            if (m == ToChar(NuclEnum.eNucl_X))
+                continue;
+            
+            char o = origin[i];
+            if (m == o)
+                indexes.Add(i);
+        }
+
+        return indexes;
     }
 }

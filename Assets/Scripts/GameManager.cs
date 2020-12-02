@@ -49,23 +49,20 @@ public class GameManager : MonoBehaviour
         onNewMessage.sentString = "YOU DON'T SEEM TO KNOW WHAT YOU ARE DOING ! OKAY I WILL GIVE AN ADVICE !! LOOK ON MY NOTEPAD (ON LEFT) UNDER THE UNDISCOVERED CELLS FORMULA !";
         onNewMessage.Raise();
 
-        GiveAHint();
+        GiveAHint(candidate);
     }
 
-    public void GiveAHint()
+    public void GiveAHint(string candidate)
     {
         onUnsuccessfulTry.Raise();
 
         for(int i = 0; i < CellStates.Count; i++)
         {
             var state = CellStates[i];
-            for (int j = 0; j < 5; j++)
+            List<int> indexes = NuclManager.CorrectIndices(candidate, state.Model);
+            for (int j = 0; j < indexes.Count; j++)
             {
-                if (! state.isNuclFound(j))
-                {
-                    state.findNucl(j);
-                    return;
-                }
+                state.findNucl(indexes[j]);
             }
         }
     }
