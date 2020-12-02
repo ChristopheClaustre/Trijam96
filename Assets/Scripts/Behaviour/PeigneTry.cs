@@ -14,7 +14,8 @@ public class PeigneTry : MonoBehaviour
     public UnityEvent onValidPositionLeaved;
 
     List<GetNucl> getNucls;
-    // Start is called before the first frame update
+
+    private PeigneMovement movementScript;
 
     private bool validPosition = false;
 
@@ -22,6 +23,7 @@ public class PeigneTry : MonoBehaviour
 
     void Start()
     {
+        movementScript = GetComponent<PeigneMovement>();
         getNucls = GetComponentsInChildren<GetNucl>().ToList();
         Debug.Assert(getNucls.Count == 5);
     }
@@ -29,6 +31,9 @@ public class PeigneTry : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (! movementScript.UserManagingComb)
+            return;
+
         string candidate = "";
 
         int i = 0;
