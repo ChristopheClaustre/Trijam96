@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   updatedGameEvent: {fileID: 11400000, guid: 1de488b01cdaf9443a8e9ba209c7e04f, type: 2}
   foundImage: {fileID: 21300000, guid: 2fc8e5562eacedb45ab09d3048e0b467, type: 3}
-  foundMessage: IT THINKS, THEREFORE <color=red>HE</color> IS !
+  foundMessage: "IT THINKS, THEREFORE <color=red>HE</color> IS !\t"
   model: CXACX
