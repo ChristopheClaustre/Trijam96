@@ -11,7 +11,7 @@ public class ADNGenerator : MonoBehaviour
 
     private float timer = 0f;
 
-    public bool started = false; 
+    public bool started = false;
 
     // Start is called before the first frame update
     void Start()
@@ -44,5 +44,15 @@ public class ADNGenerator : MonoBehaviour
         info.transform.localPosition = Vector3.zero;
         info.info = (NuclManager.NuclEnum) idx;
         info.GetComponent<ADNMovement>().speed = speed;
+    }
+
+    public void StopGenerating()
+    {
+        started = false;
+    }
+
+    public void StartGenerating()
+    {
+        started = true;
     }
 }
