@@ -37,6 +37,8 @@ public class GameManager : MonoBehaviour
                 onNewMessage.Raise();
                 onSuccessfulTry.Raise();
                 CellStates.RemoveAt(i);
+                if (CellStates.Count == 0)
+                    onGameEnd.Raise();
                 return;
             }
             

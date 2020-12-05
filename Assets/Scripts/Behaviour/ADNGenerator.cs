@@ -11,7 +11,7 @@ public class ADNGenerator : MonoBehaviour
 
     private float timer = 0f;
 
-    public bool started = false;
+    private bool started = false;
 
     // Start is called before the first frame update
     void Start()
