@@ -973,7 +973,6 @@ GameObject:
   - component: {fileID: 550663719707696410}
   - component: {fileID: 550663719707696409}
   - component: {fileID: 550663719707696408}
-  - component: {fileID: 550663719707696411}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1044,54 +1043,6 @@ MonoBehaviour:
   m_Text: SO, YOU WANT YOUR <b><color=red>A</color></b> IN <color=green>MICROBIOLOGY</color>
     ? YOU WILL HAVE TO EARN IT IF YOU KNOW WHAT I MEAN... I WANT A SLAVE, MY SLAVE
     AND I WANT ONE MADE OUT OF DNA !!
---- !u!114 &550663719707696411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 550663719707696413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa39e69ee488484439cd909f5f2a3254, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  eventAndResponses:
-  - name: New Message
-    gameEvent: {fileID: 11400000, guid: 1238451021b3cee4185e7ae0d7669e8d, type: 2}
-    response:
-      m_PersistentCalls:
-        m_Calls: []
-    responseForSentString:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 550663719707696408}
-          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
-          m_MethodName: set_text
-          m_Mode: 0
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    responseForSentInt:
-      m_PersistentCalls:
-        m_Calls: []
-    responseForSentFloat:
-      m_PersistentCalls:
-        m_Calls: []
-    responseForSentBool:
-      m_PersistentCalls:
-        m_Calls: []
-    responseForSentMonoBehaviour:
-      m_PersistentCalls:
-        m_Calls: []
-    responseForSentScriptableObject:
-      m_PersistentCalls:
-        m_Calls: []
 --- !u!1 &550663719862695386
 GameObject:
   m_ObjectHideFlags: 0
