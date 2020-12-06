@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 550663718500386512}
   - component: {fileID: 550663718500386515}
   - component: {fileID: 2140862698049253903}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Trijam96
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 550663718513068116}
   - component: {fileID: 550663718513068114}
   - component: {fileID: 550663718513068117}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 550663718616458508}
   - component: {fileID: 550663718616458511}
   - component: {fileID: 9155904586986434167}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Credits_kack3y
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 550663718745950673}
   - component: {fileID: 550663718745950687}
   - component: {fileID: 550663718745950686}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: GameOver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -499,7 +499,7 @@ GameObject:
   - component: {fileID: 550663719023332361}
   - component: {fileID: 550663719023332360}
   - component: {fileID: 550663719023332363}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: StartMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -595,7 +595,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 550663719141078971}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ScientistTalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -867,6 +867,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &550663719704623179
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,7 +891,7 @@ GameObject:
   - component: {fileID: 550663719704623190}
   - component: {fileID: 550663719704623177}
   - component: {fileID: 4829338117763308018}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1054,7 +1066,7 @@ GameObject:
   - component: {fileID: 550663719862695387}
   - component: {fileID: 550663719862695385}
   - component: {fileID: 550663719862695384}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Credits_synack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1129,7 +1141,7 @@ GameObject:
   - component: {fileID: 550663720454623359}
   - component: {fileID: 550663720454623357}
   - component: {fileID: 550663720454623356}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TitleGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
