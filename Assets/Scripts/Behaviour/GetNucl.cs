@@ -25,7 +25,8 @@ public class GetNucl : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collider)
     {
         actualCollider2D = collider;
-        nuclSpriteRenderer.sprite = spriterSO.GetCombSprite(ADNInfo.info);
+        if (ADNInfo != null)
+            nuclSpriteRenderer.sprite = spriterSO.GetCombSprite(ADNInfo.info);
     }
 
     public void OnTriggerExit2D(Collider2D collider)
